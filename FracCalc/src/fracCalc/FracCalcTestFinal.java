@@ -158,7 +158,7 @@ public class FracCalcTestFinal
     @Test public void testDivisionCombined4() {assertEquals("-5/21", FracCalc.produceAnswer("1_2/3 / -5_6/3"));}
 
     // Extra credit only
-    @Test public void multipleOps1() {assertEquals("-20/21", FracCalc.produceAnswer("1_2/3 + 5/4 + 5_5/4 - 2_2/4 / -5_6/3"));}
+    @Test public void multipleOps1() {assertEquals("9_11/21", FracCalc.produceAnswer("1_2/3 + 5/4 + 5_5/4 - 2_2/4 / -5_6/3"));}
     @Test public void multipleOps2() {assertEquals("4", FracCalc.produceAnswer("1 + 3 + -3 - -3"));}
     @Test public void multipleOps3() {assertEquals("0", FracCalc.produceAnswer("12 * 18 * 18 * 0"));}
     @Test public void multipleOps4() {assertEquals("3_47/60", FracCalc.produceAnswer("20/8 + 3_1/3 - 4/5 - 5/4"));}
